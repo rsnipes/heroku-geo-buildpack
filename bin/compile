@@ -54,9 +54,9 @@ function set-default-env (){
 }
 
 # Retrieve versions
-GEOS_VERSION=$(manifest_version "geos")
-GDAL_VERSION=$(manifest_version "gdal")
-PROJ_VERSION=$(manifest_version "proj")
+GEOS_VERSION="3.6.1"
+GDAL_VERSION="2.1.3"
+PROJ_VERSION="4.9.3"
 
 # Display some information
 echo "Using geos version: ${GEOS_VERSION}" | indent
